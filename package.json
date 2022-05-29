@@ -1,0 +1,19 @@
+{
+  "name": "echochamber",
+  "version": "1.0.0",
+  "description": "A simple echo server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelDesante/EchoChamber.git"
+  },
+  "author": "Joel DeSante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelDesante/EchoChamber/issues"
+  },
+  "homepage": "https://github.com/JoelDesante/EchoChamber#readme"
+}
