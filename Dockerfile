@@ -1,11 +1,12 @@
-FROM golang:latest
+FROM node:latest
 WORKDIR /app
 
-COPY go.mod .
-COPY go.sum .
+COPY package.json .
+COPY package-lock.json .
 
-RUN go mod download
-COPY *.go ./
+RUN npm ci
 
-RUN go build -o /echochamber
+COPY *.js .
 EXPOSE 8080
+
+CMD ["node", "main.js"]
