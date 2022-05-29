@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JoelDesante/EchoChamber/issues"
   },
-  "homepage": "https://github.com/JoelDesante/EchoChamber#readme"
+  "homepage": "https://github.com/JoelDesante/EchoChamber#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
